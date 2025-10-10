@@ -12,7 +12,7 @@ function Home(){
             <Row className='justify-content-center'>
                 {categorys.map( (category) => (
                     <CategoryCard key={category.id} category={category}/>
-                ) )};
+                ) )}
             </Row>
         </Container>
     );
