@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
 
 # Dependencias
 node_modules/
@@ -41,5 +40,3 @@ yarn-error.log*
 # Variables de entorno
 .env
 .env.*
-=======
->>>>>>> e907cd7 (Modificaciones Carrito)

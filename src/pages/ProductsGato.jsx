@@ -1,7 +1,6 @@
 import { Container, Row } from 'react-bootstrap';
 import ProductCard from '../components/organisms/ProductCard.jsx';
 import products from '../data/products.js';
-import '../styles/pages/Products.css';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/atoms/Button.jsx';
 

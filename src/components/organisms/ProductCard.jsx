@@ -9,8 +9,6 @@ import "/src/styles/organisms/ProductCard.css";
 function ProductCard({ product }) {
   const navigate = useNavigate();
 
-<<<<<<< HEAD
-=======
   const agregar = () => {
     const carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
 
@@ -34,7 +32,6 @@ function ProductCard({ product }) {
     // alert("Producto super hiper mega agregado");
   };
 
->>>>>>> e907cd7 (Modificaciones Carrito)
   return (
     <Card style={{ width: "20rem" }} className="m-5">
       <Image src={product.image} alt={product.name} className="card-img-top" />
@@ -50,16 +47,10 @@ function ProductCard({ product }) {
         >
           Ver Detalles
         </Button>
-<<<<<<< HEAD
-        <br/>
-        <Button variant="outline-success">Agregar </Button>
-        
-=======
         <br />
         <Button variant="outline-success" onClick={agregar}>
           Agregar
         </Button>
->>>>>>> e907cd7 (Modificaciones Carrito)
       </Card.Body>
     </Card>
   );

@@ -24,16 +24,10 @@ function Footer(){
                     </Col>
 
                     <Col className='m-4'>
-<<<<<<< HEAD
-                        <Row className='text-white p-2'>Contamos con envio a todo Chile</Row>
-                        <Row className='text-white p-2'>Somos tu tienda PetLover favorita</Row>
-                        <Row className='text-white p-2'>Tenemos los mejores precios del mercado</Row>
-=======
                     
                         <Row className='text-white p-2'>Item 1</Row>
                         <Row className='text-white p-2'>Item 2</Row>
                         <Row className='text-white p-2'>Item 3</Row>
->>>>>>> e907cd7 (Modificaciones Carrito)
                     </Col>
                     
                 </Row>
