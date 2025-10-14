@@ -28,7 +28,7 @@ const products = [
         name: "Acana Singles Duck & Pear alimento para perro",
         description: "Es alimento de perro 4",
         price: 121990,
-        image: "/images/4-acana-singles-duck-pear-alimento-para-perro.webp",
+        image: "/images/4-acana-singles-duck-and-pear-alimento-para-perro.webp",
         tipo: 'perro'
     },
     {
@@ -60,7 +60,7 @@ const products = [
         name: "Orijen Fit & Trim Cat alimento para gato",
         description: "Es comida de gato 2",
         price: 99990,
-        image: "/images/8-orijen-fit-trim-cat-alimento-para-gato.webp",
+        image: "/images/8-orijen-fit-and-trim-cat-alimento-para-gato.webp",
         tipo: 'gato'
     },
     {
@@ -76,7 +76,7 @@ const products = [
         name: "N&D Quinoa Feline Adult Skin & Coat Peixe alimento para gato",
         description: "Es comida de gato 4",
         price: 89990,
-        image: "/images/10-nd-quinoa-feline-adult-skin-coat-peixe-alimento-para-gato.webp",
+        image: "/images/10-nandd-quinoa-feline-adult-skin-and-coat-peixe-alimento-para-gato.webp",
         tipo: 'gato'
     },
     {
@@ -140,7 +140,7 @@ const products = [
         name: "Zeecat collar skull 2.0 para gato",
         description: "Es un accesorio 1",
         price: 5990,
-        image: "/images/18-zeecat-collar-skull-2-0-para-gato.webp",
+        image: "/images/18-zeecat-collar-skull-20-para-gato.webp",
         tipo: 'accesorio'
     },
 ];
