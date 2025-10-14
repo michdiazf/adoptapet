@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import products from '../data/products.js'
 import ProductCard from '../components/organisms/ProductCard';
