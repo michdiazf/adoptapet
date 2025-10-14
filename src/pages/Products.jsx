@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import React from 'react';
+=======
+>>>>>>> e907cd7 (Modificaciones Carrito)
 import { Container, Row } from 'react-bootstrap';
 import products from '../data/products.js'
 import ProductCard from '../components/organisms/ProductCard';
