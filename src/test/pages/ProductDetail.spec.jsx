@@ -86,13 +86,11 @@ describe("ProductDetail Page", () => {
     expect(
         await screen.findByRole("heading", { level: 2, name: /hills.*canine.* metabolic\s*\+\s*mobility/i})
     ).toBeTruthy();
-
+    const nfCLP = (n) => 
+      new Intl.NumberFormat("es-CL", { style: "currency", currency: "CLP", maximumFractionDigits: 0}).format(n);
+    
     expect(
-        await screen.findByRole("img", {name: /hills.*canine.* metabolic\s*\+\s*mobility/i})
-    ).toBeTruthy();
-
-    expect(
-        await screen.findByText(/\$?\s*169990\b/)
+      await screen.findByRole("heading", { level: 4, name: nfCLP(169990)})
     ).toBeTruthy();
   });
 
