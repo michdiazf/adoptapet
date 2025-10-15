@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../../components/atoms/Button';
 import { render, screen } from '@testing-library/react';
 
-describe('Button Component', () => {
+describe('Button atomo', () => {
    
     it('Renderiza el boton correctamente', () => {
         const { getByText } = render(<Button>Ir</Button>);
