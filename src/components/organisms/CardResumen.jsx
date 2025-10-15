@@ -5,8 +5,6 @@ import { Container, Col, Row } from "react-bootstrap";
 
 function CardResumen() {
 
-    const envio = 3000;
-
     const carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
 
     const subTotal = () => {
@@ -19,7 +17,7 @@ function CardResumen() {
         if (subTotal() === 0){
             return 0;
         }
-        return subTotal() + envio;
+        return subTotal();
     }
 
     const comprar = () => {
@@ -31,10 +29,6 @@ function CardResumen() {
     <Container>
       <Row>
         <CardResumenBody label="Subtotal" price={subTotal()} />
-      </Row>
-      <Row>
-        <CardResumenBody label="Gastos envio" price={envio} />
-        <Text variant="p">Retiro gratis en nuestras sucursales.</Text>
       </Row>
       <Row>
         <CardResumenBody label="Total" price={total()} />
