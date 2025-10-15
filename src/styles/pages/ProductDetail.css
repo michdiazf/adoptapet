@@ -1,0 +1,10 @@
+.card{
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+button{
+    margin-top: 1% !important;
+}
